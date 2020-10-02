@@ -3,8 +3,8 @@ version: '3'
 services:
   app:
     entrypoint: [bin/start]
-    image: droplet361/greenlight:v2
-    container_name: greenlight-v2
+    image: droplet361/greenlight:latest
+    container_name: zzz-greenlight
     env_file: .env
     restart: unless-stopped
     ports:
